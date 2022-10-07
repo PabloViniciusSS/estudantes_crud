@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "estudantes"
+version = "0.1.0"
+description = "Projeto de Crud"
+authors = ["Pablo Vinícius Sousa Silva <48532322+PabloViniciusSS@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+Flask = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
